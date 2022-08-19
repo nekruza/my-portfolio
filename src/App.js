@@ -12,7 +12,7 @@ import { Grid } from '@mui/material';
 
 function App() {
 
-  const [opacity, setOpacity] = React.useState(0.5)
+  const [opacity, setOpacity] = React.useState(0.22)
   const [bgcolor, setBgColor] = React.useState(false)
 
   return (
