@@ -36,12 +36,12 @@ function Contact(props) {
                                 </ListItemIcon>
                                 <ListItemText primary="nekruz.avgani@gmail.com" />
                             </ListItem>
-                            <ListItem>
+                            {/* <ListItem>
                                 <ListItemIcon>
                                     <PhoneIcon />
                                 </ListItemIcon>
                                 <ListItemText primary="+44 7708582724" />
-                            </ListItem>
+                            </ListItem> */}
                             <ListItem>
                                 <ListItemIcon>
                                     <LocationOnIcon />

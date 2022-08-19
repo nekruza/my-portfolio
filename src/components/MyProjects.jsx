@@ -38,24 +38,24 @@ export default MyProjects;
 
 const data = [
     {
-        name: 'AI + MovieHub',
-        text: 'Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!',
+        name: 'AI MovieHub',
+        text: 'AI-MovieHub is a movie platform with AI functionality that lets users find movies through the intelligent voice assistant',
         color: '#8892b0',
-        stack: 'React Styled Components Express Spotify API Heroku',
-        linkSite: 'https://plantin.herokuapp.com/',
-        linkGithub: 'https://github.com/Nekruz-Dominika/Full-Stack-Web-App',
-        photo: require('./images/marvel_game.jpeg')
+        stack: 'ReactJS, JavaScript, Alan AI, CSS, useQuery, Axios',
+        linkSite: 'https://ai-moviehub.netlify.app/',
+        linkGithub: 'https://github.com/nekruza/ai-moviehub',
+        photo: require('./images/ai-movie.png')
     },
-    {
-        name: 'Social Gratitude',
-        text: 'Social Gratitude is a social media platform that encourages users to be grateful for each other by sharing dedicated gratitude posts and reminding them about upcoming calls to their loved ones',
-        color: '#8892b0',
-        stack: 'ReactJS, MongoDB, Mangoose, NodeJs, ExpressJS, Axios, REST API, GitHub',
-        linkSite: 'https://social-gratitude.netlify.app/',
-        linkGithub: 'https://github.com/Alice-Nekruz/social-gratitude-client',
-        photo: require('./images/social_gratitude.jpeg')
+    // {
+    //     name: 'Social Gratitude',
+    //     text: 'Social Gratitude is a social media platform that encourages users to be grateful for each other by sharing dedicated gratitude posts and reminding them about upcoming calls to their loved ones',
+    //     color: '#8892b0',
+    //     stack: 'ReactJS, MongoDB, Mangoose, NodeJs, ExpressJS, Axios, REST API, GitHub',
+    //     linkSite: 'https://social-gratitude.netlify.app/',
+    //     linkGithub: 'https://github.com/Alice-Nekruz/social-gratitude-client',
+    //     photo: require('./images/social_gratitude.jpeg')
 
-    },
+    // },
     {
         name: 'Plantin',
         text: 'Plantin is a website where users can read how to take care of their plants, add new plants to the website, check the weather in their city, and create a list of their favorite plants',
@@ -70,8 +70,8 @@ const data = [
         text: 'In this game, a user can choose various Marvel characters with different functionalities like shooting to fight with Thanos',
         color: '#8892b0',
         stack: 'HTML, CSS, JavaScript, GitHub',
-        linkSite: 'https://plantin.herokuapp.com/',
-        linkGithub: 'https://github.com/Nekruz-Dominika/Full-Stack-Web-App',
+        linkSite: 'https://nekruza.github.io/the-best-game-ever-/captain/captain.html',
+        linkGithub: 'https://github.com/nekruza/the-best-game-ever-',
         photo: require('./images/marvel_game.jpeg')
     },
 

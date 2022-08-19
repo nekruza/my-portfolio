@@ -1,7 +1,7 @@
 import { Box, Button, Grid } from '@mui/material';
 import React from 'react';
 import image from '../images/avatar.png'
-import resume from './NA_Resume.pdf'
+import resume from './Resume/NA-WD-RESUME-2022.pdf'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
@@ -19,7 +19,7 @@ function Main() {
                     <p style={{ color: '#e6f1ff', fontSize: 67, fontWeight: 600, marginTop: 10 }}>Nekruz Avgani</p>
                     <p style={{ color: '#a8b2d1', fontSize: 55, fontWeight: 600, }}>I turn ideas into reality!</p>
                     <p style={{ color: '#8892b0', marginBottom: 30, marginTop: 20 }}>
-                        I’m a software engineer specialized in Javascript and the MERN (MongoDB, Express, React & Node.js).
+                        I’m a Front End Developer specialized in JavaScript and ReactJS.
                     </p>
                     <Grid style={{ marginBottom: 7 }}>
                         <a href='https://www.linkedin.com/in/navgani/'><LinkedInIcon style={{ margin: '10px 10px 10px 0px', width: 50, height: 50 }} /></a>
