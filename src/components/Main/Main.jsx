@@ -1,7 +1,7 @@
 import { Box, Button, Grid } from '@mui/material';
 import React from 'react';
 import image from '../images/avatar.png'
-import resume from './Resume/NA-WD-RESUME-2022.pdf'
+import resume from './Resume/NekruzAvgani_Resume.pdf'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
