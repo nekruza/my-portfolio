@@ -26,7 +26,7 @@ function Main() {
                         <a href='https://github.com/nekruza'><GitHubIcon style={{ margin: '10px 10px 10px 0px', width: 50, height: 50 }} /></a>
                     </Grid>
                     <a href={resume} download style={{ textDecoration: 'none' }}>
-                        <Button className='button' variant='outlined'>
+                        <Button className='button' variant='outlined' color="secondary">
                             Download Resume
                         </Button>
                     </a>

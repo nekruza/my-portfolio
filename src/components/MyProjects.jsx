@@ -13,7 +13,7 @@ function MyProjects(props) {
                     <Grid item sm={6} xs={12} style={{ zIndex: 99, maxWidth: 600, padding: 15, background: 'black' }}>
                         <p style={{ fontSize: 13, fontWeight: 500, marginTop: 10 }}>Project {index + 1}</p>
                         <p style={{ fontSize: 27, fontWeight: 600, marginTop: 10, color: '#ccd6f6' }}>{txt.name}</p>
-                        <p style={{ color: txt.color, fontSize: 15, marginBottom: 10, marginTop: 10, padding: 25, lineHeight: 1.5, background: '#112240' }}>{txt.text}</p>
+                        <p style={{ color: txt.color, fontSize: 15, marginBottom: 10, marginTop: 10, padding: 25, lineHeight: 1.5, background: '#17002c' }}>{txt.text}</p>
                         <p style={{ fontSize: 13, marginBottom: 10, marginTop: 10, color: '#8892b0', lineHeight: 1.5 }}> <strong>Tech Stack:</strong> {txt.stack}</p>
                         <a href={txt.linkGithub} style={{ textDecoration: 'none' }}>
                             <GitHubIcon style={{ marginLeft: 10, color: '#8892b0', }} />
