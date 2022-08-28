@@ -38,7 +38,7 @@ function Navbar({ bg, setBgColor }) {
                     </IconButton>
                 </Grid>
             </Grid>
-            <Box container style={{ margin: '0px', background: 'black', border: '2px solid #A548FF', display: display, position: 'absolute', top: 10, flexDirection: 'column', zIndex: 99, width: '85vw', height: '100px', padding: "40px 15px" }}>
+            <Box container style={{ margin: '0px', background: 'black', border: '2px solid #A548FF', display: display, position: 'absolute', top: 10, flexDirection: 'column', zIndex: 99, width: '99vw', height: '100px', padding: "40px 0px" }}>
                 <CloseIcon style={{ position: 'absolute', top: 10, right: 10, }} onClick={() => setDisplay('none')} />
                 <Grid container style={{ display: 'flex', justifyContent: 'space-around', width: '100%', height: '100%', }}>
                     {data.map((item, index) => (
