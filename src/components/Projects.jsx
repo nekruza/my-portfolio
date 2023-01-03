@@ -53,7 +53,7 @@ export default function BasicTabs() {
             <Box sx={{ borderBottom: 10, }}>
                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" style={{ margin: '10px 10px 0px', textAlign: 'start', }}>
                     {data.map((txt, index) => (
-                        <Tab label={txt.name} {...a11yProps(index)} style={{ padding: '5px', marginRight: 20 }} />
+                        <Tab label={txt.name} {...a11yProps(index)} style={{ padding: '5px', marginRight: 20, color: 'rgb(136, 146, 176)' }} />
                     ))}
                 </Tabs>
             </Box>
