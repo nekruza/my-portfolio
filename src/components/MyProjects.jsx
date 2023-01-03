@@ -7,7 +7,7 @@ import './style/style.css'
 function MyProjects({ txt, index }) {
 
     return (
-        <Box id="project"
+        <Box
             sx={{
                 padding: 1, color: '#64ffda',
                 maxWidth: 900, margin: '10px auto',

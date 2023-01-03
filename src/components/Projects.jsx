@@ -48,7 +48,7 @@ export default function BasicTabs() {
     };
 
     return (
-        <Box sx={{ width: '100%', marginTop: 20, marginBottom: 20 }}>
+        <Box id="project" sx={{ width: '100%', marginTop: 20, marginBottom: 20 }}>
             <p style={{ fontSize: 32, fontWeight: 600, margin: '10px', color: '#ccd6f6', marginBottom: '50xp' }}>Projects</p>
             <Box sx={{ borderBottom: 10, }}>
                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" style={{ margin: '10px 10px 0px', textAlign: 'start', }}>
