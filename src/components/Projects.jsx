@@ -53,7 +53,7 @@ export default function BasicTabs() {
             <Box sx={{ borderBottom: 10, }}>
                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" style={{ margin: '10px 10px 0px', textAlign: 'start', }}>
                     {data.map((txt, index) => (
-                        <Tab label={txt.name} {...a11yProps(index)} style={{ padding: '5px' }} />
+                        <Tab label={txt.name} {...a11yProps(index)} style={{ padding: '5px', marginRight: 20 }} />
                     ))}
                 </Tabs>
             </Box>
@@ -82,7 +82,7 @@ const data = [
         color: 'white',
         titleColor: '#ad1f1f',
         background: '#3e0100',
-        stack: 'ReactJS, JavaScript, Alan AI, useQuery, Zustand',
+        stack: 'React, JavaScript, Alan AI, useQuery, Zustand',
         linkSite: 'https://ai-moviehub.netlify.app/',
         linkGithub: 'https://github.com/nekruza/ai-moviehub',
         photo: require('./images/ai-movie.png')
@@ -107,6 +107,16 @@ const data = [
         linkSite: 'https://plantin.herokuapp.com/',
         linkGithub: 'https://github.com/Nekruz-Dominika/Full-Stack-Web-App',
         photo: require('./images/plantin.jpeg')
+    },
+    {
+        name: 'MessageX',
+        text: 'A responsive messaging app that allows users to exchange messages in real-time across different devices and screen sizes',
+        titleColor: '#6c3bdd',
+        background: '#6c3bdd',
+        stack: 'React, JavaScript, Redux, SCSS',
+        linkSite: 'https://messagex.netlify.app/',
+        linkGithub: 'https://github.com/nekruza/message-x',
+        photo: require('./images/messageX.png')
     },
     {
         name: 'Marvel: Infinity War',
