@@ -72,7 +72,7 @@ const data = [
 const dataSkills = [
     {
         text: 'ReactJS',
-        value: 90,
+        value: 92,
         color: 'primary',
     },
     {
@@ -82,15 +82,15 @@ const dataSkills = [
 
     },
     {
+        text: 'Zustand ',
+        value: 90,
+        color: 'success',
+    },
+    {
         text: 'TypeScript',
         value: 85,
         color: 'secondary',
 
-    },
-    {
-        text: 'Zustand ',
-        value: 90,
-        color: 'success',
     },
     {
         text: 'Redux',

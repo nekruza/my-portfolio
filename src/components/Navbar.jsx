@@ -11,18 +11,23 @@ import CloseIcon from '@mui/icons-material/Close';
 import logo2 from './images/logo2.png'
 
 
+
 function Navbar({ bg, setBgColor }) {
     const [display, setDisplay] = React.useState('none')
 
     return (
-        <Box style={{ width: '100vw', display: 'flex', height: 70 }}>
-            <Grid container sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', margin: 'auto', color: '#0095F6', padding: 2 }}>
+        <Box style={{ width: '100vw', display: 'flex', height: 80, background: '#050718', zIndex: 999999 }}>
+            <Grid container sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', margin: 'auto', color: '#0095F6', padding: { sx: 2, sm: '10px 30px' }, }}>
                 <Grid>
                     <img src={logo2} alt="logo" height={30} />
                 </Grid>
                 <Grid style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', textDecoration: 'none' }}>
                     <Grid sx={{ display: { xs: 'none', sm: 'flex' } }}>
-                        <HashLink to='#about' smooth style={{ textDecoration: 'none', }}><p className='underline' style={{ padding: 15, color: '#0095F6' }}>About</p></HashLink>
+                        <HashLink to='#about' smooth style={{ textDecoration: 'none', }}>
+                            <p className='underline' style={{ padding: 15, color: '#0095F6' }}>
+                                About
+                            </p>
+                        </HashLink>
                         <HashLink to='#project' smooth style={{ textDecoration: 'none' }}><p className='underline' style={{ padding: 15, color: '#0095F6' }}>Project</p></HashLink>
                         <HashLink to='#contacts' smooth style={{ textDecoration: 'none' }}><p className='underline' style={{ padding: 15, color: '#0095F6' }}>Contact</p></HashLink>
                     </Grid>
