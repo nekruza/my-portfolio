@@ -12,7 +12,7 @@ import '../style/style.css'
 function Main() {
 
     return (
-        <Box id="main" sx={{ minHeight: '70vh', paddingLeft: 1, paddingRight: 1, marginTop: 10, paddingTop: 25, color: '#0095F6' }}>
+        <Box id="main" sx={{ minHeight: '70vh', paddingLeft: 1, paddingRight: 1, marginTop: 10, paddingTop: 10, color: '#0095F6' }}>
             <Grid container style={{ margin: '50px auto', height: 300, display: 'flex', flexDirection: 'column', justifyContent: 'space-around' }}>
                 <Grid item xs={10} style={{ zIndex: 2, padding: 10 }} >
                     <p>Hi, my name is </p>
