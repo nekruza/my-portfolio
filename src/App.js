@@ -9,6 +9,7 @@ import Right from './components/Main/Right';
 import Contact from './components/Contact';
 import ParticlesComponent from './components/Particles';
 import { Grid } from '@mui/material';
+import Projects from './components/Projects';
 
 function App() {
 
@@ -16,21 +17,22 @@ function App() {
   const [bgcolor, setBgColor] = React.useState(false)
 
   return (
-    <div style={{ background: bgcolor ? 'white' : 'black' }}>
+    <div style={{ background: '#040718' }}>
       <Navbar bg={bgcolor} setBgColor={setBgColor} />
-      <ParticlesComponent opacity={opacity} />
+      {/* <ParticlesComponent opacity={opacity} /> */}
       <Grid container sx={{ display: 'flex', maxWidth: 1200, margin: 'auto' }}>
-        <Grid item xs={2} sx={{ display: { xs: 'none', sm: 'inherit' } }}>
+        <Grid item xs={1} sx={{ display: { xs: 'none', sm: 'inherit' } }}>
           <Left />
         </Grid>
-        <Grid item xs={12} sm={8}>
+        <Grid item xs={12} sm={10}>
           <Main />
           <AboutMe />
-          <MyProjects />
+          <Projects />
+          {/* <MyProjects /> */}
           <Contact />
         </Grid>
-        <Grid item xs={2} sx={{ display: { xs: 'none', sm: 'flex' } }}>
-          <Right setOpacity={setOpacity} />
+        <Grid item xs={1} sx={{ display: { xs: 'none', sm: 'flex' } }}>
+          {/* <Right setOpacity={setOpacity} /> */}
         </Grid>
       </Grid>
 

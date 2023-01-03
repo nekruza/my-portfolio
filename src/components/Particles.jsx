@@ -50,7 +50,7 @@ function ParticlesComponent({ opacity }) {
         },
         particles: {
             color: {
-                value: "#A548FF"
+                value: "#A540095F68FF"
             },
             links: {
                 color: "#c588ff",

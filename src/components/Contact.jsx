@@ -25,16 +25,18 @@ function Contact(props) {
                             Get In Touch
                         </Button>
                     </a>
-                    <p style={{ fontSize: 16, margin: 20, color: '#ccd6f6', textAlign: 'center', lineHeight: 1.5 }}>Feel free to get in touch! Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
+                    <p style={{ fontSize: 16, margin: 20, color: '#ccd6f6', textAlign: 'center', lineHeight: 1.5 }}>
+                        Thank you for visiting my portfolio website! If you have any questions or are interested in collaborating on a project, feel free to contact me.
+                    </p>
                 </div>
                 <div style={{ flex: 1, display: 'flex', justifyContent: 'start', alignItems: 'center' }}>
                     <Box >
                         <List >
                             <ListItem>
                                 <ListItemIcon>
-                                    <EmailIcon />
+                                    <EmailIcon style={{ color: 'white' }} />
                                 </ListItemIcon>
-                                <ListItemText primary="nekruz.avgani@gmail.com" />
+                                <ListItemText primary="nekruz.avgani@gmail.com" style={{ color: 'white' }} />
                             </ListItem>
                             {/* <ListItem>
                                 <ListItemIcon>
@@ -42,11 +44,11 @@ function Contact(props) {
                                 </ListItemIcon>
                                 <ListItemText primary="+44 7708582724" />
                             </ListItem> */}
-                            <ListItem>
+                            <ListItem style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                 <ListItemIcon>
-                                    <LocationOnIcon />
+                                    <LocationOnIcon style={{ color: 'white' }} />
                                 </ListItemIcon>
-                                <ListItemText primary="London, UK" />
+                                <ListItemText primary="London, UK" style={{ color: 'white' }} />
                             </ListItem>
                         </List>
                     </Box>

@@ -3,14 +3,14 @@ import { styled } from '@mui/material/styles';
 import '../style/style.css'
 import Badge from '@mui/material/Badge';
 import Avatar from '@mui/material/Avatar';
-import photo1 from '../images/myAvatar.jpeg'
+import myPic from '../images/my_pic.JPG'
 import photo2 from '../images/myPhoto.png'
 import photo3 from '../images/myPhoto2.png'
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
     '& .MuiBadge-badge': {
-        backgroundColor: '#44b700',
-        color: '#44b700',
+        backgroundColor: '#0095F6',
+        color: '#0095F6',
         boxShadow: `0 0 0 2px ${theme.palette.background.paper}`,
         '&::after': {
             position: 'absolute',
@@ -49,8 +49,8 @@ export default function MyAvatar() {
             <Avatar
                 // className='border'
                 alt="Nekruz"
-                src={pic ? photo2 : photo1}
-                style={{ width: 220, height: 220, border: '2px solid #44b700' }}
+                src={myPic}
+                style={{ width: 220, height: 220, border: '2px solid white', backgroundColor: 'black' }}
                 onMouseEnter={() => setPic(true)}
                 onMouseLeave={() => setPic(false)}
             />

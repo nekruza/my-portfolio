@@ -1,11 +1,15 @@
-.color1{
-    color: aqua;
+.color1 {
+  color: aqua;
 }
 
-.color2{
-    color: blueviolet;
+.color2 {
+  color: blueviolet;
 }
 
-.color3{
-    color: yellowgreen;
+.color3 {
+  color: yellowgreen;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  color: aqua !important;
 }
