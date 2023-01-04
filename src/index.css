@@ -1,6 +1,7 @@
 html * {
   color: "#0095F6" !important;
-  font-family: Arial !important;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text",
+    "-apple-system", "system-ui", "sans-serif" !important;
   margin: 0px;
   background: "black";
 }

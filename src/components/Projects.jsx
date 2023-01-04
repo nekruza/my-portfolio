@@ -125,7 +125,7 @@ const data = [
         titleColor: '#1976d2',
         background: '#001b34',
         stack: 'HTML, CSS, JavaScript',
-        linkSite: 'https://nekruza.github.io/the-best-game-ever-/captain/captain.html',
+        linkSite: 'https://nekruza.github.io/the-best-game-ever-/',
         linkGithub: 'https://github.com/nekruza/the-best-game-ever-',
         photo: require('./images/marvel_game.jpeg')
     },

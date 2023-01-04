@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
 import MyAvatar from './MyAvatar';
 import { Grid } from '@mui/material';
+import Skillset from './Skillset';
 
 function AboutMe(props) {
 
@@ -46,6 +47,9 @@ function AboutMe(props) {
                         ))}
                     </div>
                 </Grid>
+                <Grid item xs={12} style={{ maxWidth: '100%', marginTop: 50, padding: 10 }}>
+                    <Skillset />
+                </Grid>
             </Grid>
         </div>
     );
@@ -82,11 +86,6 @@ const dataSkills = [
 
     },
     {
-        text: 'Zustand ',
-        value: 90,
-        color: 'success',
-    },
-    {
         text: 'TypeScript',
         value: 85,
         color: 'secondary',
@@ -94,7 +93,7 @@ const dataSkills = [
     },
     {
         text: 'Redux',
-        value: 70,
+        value: 80,
         color: 'secondary',
 
     },

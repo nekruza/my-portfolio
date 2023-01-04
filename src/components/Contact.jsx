@@ -1,20 +1,13 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
-import Divider from '@mui/material/Divider';
-import InboxIcon from '@mui/icons-material/Inbox';
-import DraftsIcon from '@mui/icons-material/Drafts';
 import EmailIcon from '@mui/icons-material/Email';
-import PhoneIcon from '@mui/icons-material/Phone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { Button } from '@mui/material';
 
-
 function Contact(props) {
+
+    const year = new Date().getFullYear();
 
     return (
         <div style={{ padding: '80px 0px 50px', color: '#64ffda' }}>
@@ -29,29 +22,20 @@ function Contact(props) {
                         Thank you for visiting my portfolio website! If you have any questions or are interested in collaborating on a project, feel free to contact me.
                     </p>
                 </div>
-                <div style={{ flex: 1, display: 'flex', justifyContent: 'start', alignItems: 'center' }}>
+                <div style={{ flex: 1, display: 'flex', justifyContent: 'start', alignItems: 'center', flexDirection: 'column' }}>
                     <Box >
                         <List >
-                            <ListItem>
-                                <ListItemIcon>
-                                    <EmailIcon style={{ color: 'white' }} />
-                                </ListItemIcon>
-                                <ListItemText primary="nekruz.avgani@gmail.com" style={{ color: 'white' }} />
-                            </ListItem>
-                            {/* <ListItem>
-                                <ListItemIcon>
-                                    <PhoneIcon />
-                                </ListItemIcon>
-                                <ListItemText primary="+44 7708582724" />
-                            </ListItem> */}
-                            <ListItem style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                                <ListItemIcon>
-                                    <LocationOnIcon style={{ color: 'white' }} />
-                                </ListItemIcon>
-                                <ListItemText primary="London, UK" style={{ color: 'white' }} />
-                            </ListItem>
+                            <div style={{ color: 'white', display: 'flex', justifyContent: 'center', marginBottom: 20, alignItems: 'center' }}>
+                                <EmailIcon style={{ color: 'white', marginRight: 7, }} /> nekruz.avgani@gmail.com
+                            </div>
+                            <div style={{ color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <LocationOnIcon style={{ color: 'white', marginRight: 7 }} /> London, UK
+                            </div>
                         </List>
                     </Box>
+                </div>
+                <div style={{ color: 'rgb(136, 146, 176)', display: 'flex', justifyContent: 'center', alignItems: 'center', fontSize: 11, marginTop: 50 }}>
+                    {'\u00A9'} {year}. All Rights Reserved
                 </div>
             </div>
         </div>
