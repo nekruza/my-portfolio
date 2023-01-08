@@ -28,7 +28,7 @@ function Navbar({ bg, setBgColor }) {
                                 About
                             </p>
                         </HashLink>
-                        <HashLink to='#project' smooth style={{ textDecoration: 'none' }}><p className='underline' style={{ padding: 15, color: '#0095F6' }}>Project</p></HashLink>
+                        <HashLink to='#project' smooth style={{ textDecoration: 'none' }}><p className='underline' style={{ padding: 15, color: '#0095F6' }}>Projects</p></HashLink>
                         <HashLink to='#contacts' smooth style={{ textDecoration: 'none' }}><p className='underline' style={{ padding: 15, color: '#0095F6' }}>Contact</p></HashLink>
                     </Grid>
                     {/* <Grid item onClick={() => setDisplay('none')} sx={{ padding: 1 }}>
